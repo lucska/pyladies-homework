@@ -2,4 +2,5 @@
 # Co se stane, když tělo nějaké funkce necháš prázdné?
 
 def empty_function():
-    # pass
+    pass
+empty_function ()
