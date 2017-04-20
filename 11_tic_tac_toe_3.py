@@ -15,8 +15,8 @@
 
 def tah_hrace(herni_pole):
     while True:
-        cislo_policka = input("Zadej cislo policka 0-19: ")
-        cislo_policka = int(cislo_policka)
+        cislo_policka = input("Zadej cislo policka 0-19: ") #aby se program lepe cetl je dobry delat na jednom radku jednu zmenu..proto int az na druhem
+        cislo_policka = int(cislo_policka) # problem pokud hrac zada pismeno nebo desetinné cislo
         if cislo_policka < 0 or cislo_policka > 19:
             print("Prosim zadej cislo v rozmezi 0-19.")
         elif herni_pole[cislo_policka] != "-":
