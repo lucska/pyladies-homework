@@ -4,7 +4,7 @@
 
 # Puvodni verze
 print('Odpovídej "ano" nebo "ne".')
-stastna_retezec = input('Jsi šťastná? ')
+stastna_retezec = input('Jsi šťastná? ') ## je třeba si ten vstup normalizovat aby bylo jedno co zadavam, male velko pismeno, osekat mezery...delat postupne
 if stastna_retezec == 'ano':
     stastna = True
 elif stastna_retezec == 'ne':
