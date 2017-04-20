@@ -3,7 +3,7 @@
 # ohled na velikost písmen a mezery před/za odpovědí.
 
 def zeptejSeAnoNe(otazka):
-    while True:
+    while True: ## z cyklu se dostaneme break nebo return (pak je navratová hodnota)
         odpoved = input(otazka)
         odpoved = odpoved.strip()
         odpoved = odpoved.upper()
@@ -11,9 +11,9 @@ def zeptejSeAnoNe(otazka):
         if odpoved == 'A' or odpoved == 'ANO':
             return True
         elif odpoved == 'N' or odpoved == 'NE':
-            return False
+            return False ## navratova hodnota false
 
-        print('Nerozumim...')
+        print('Nerozumim...') ## pokud to neni ani ano, ne nebo neco podobného
 
 
 stastna = zeptejSeAnoNe('Jsi šťastná? ')
