@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 #Najdi 4 chyby v programu, oprav je. Vytvor Pull request s opravou.
+import random
 
 def piskvorky1d():
     herni_pole = "-" * 20
