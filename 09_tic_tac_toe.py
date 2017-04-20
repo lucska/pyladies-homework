@@ -23,7 +23,7 @@ def vyhodnot(herni_pole):
     elif "-" not in herni_pole:
         return "!"
     else:
-        return "_"
+        return "-"
 
 print(vyhodnot("-------x------------"))
 print(vyhodnot("-------xxx----------"))
