@@ -27,4 +27,4 @@ elif tah_cloveka == 'papír':
     elif tah_pocitace == 'papír':
         print('Plichta.')
 else:
-    print('Nerozumím.')
+    print('Nerozumím, ale vůbec!!!')
